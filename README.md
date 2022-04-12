@@ -4,7 +4,7 @@ This research experiment recreates a quadrature Mach-Zenhder optical inferometer
 
 
 // insert picture of the working setup
-![image](https://user-images.githubusercontent.com/37032927/162936080-725f7450-7987-4fce-8e62-235bb03b1779.png)
+![image](https://user-images.githubusercontent.com/37032927/162936383-63b10e86-2fae-4593-b529-db24f3bb2851.png)
 
 # Motivation
 For this project, we wanted to be able to utilize a cheap store-bought laser and 3d printed mounts to simulate an expensive mach-zenhder interferometer which will plot real-time data of expansion. The two photodiodes should be perfectly pi/4 out of phase to obtain perfect quadrature.
