@@ -1,20 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[8]:
-
-
 from itertools import count
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib
 
 plt.style.use('fivethirtyeight')
-
-
-# In[14]:
-
-
 
 def animate(i):
     data = pd.read_csv('data.csv')
@@ -33,21 +25,10 @@ def animate(i):
         
         
   
-    plt.xlabel('voltage (V)')
-    plt.ylabel('voltage (V)')
-    #plt.xlim(0.15,0.3)
-    #plt.ylim(0.2,0.3)
+    plt.xlabel('PD_A voltage (V)')
+    plt.ylabel('PD_B voltage (V)')
 
 ani = matplotlib.animation.FuncAnimation(plt.gcf(), animate, interval=1000)
 
 plt.tight_layout()
 plt.show()
-
-
-
-
-# In[ ]:
-
-
-
-
