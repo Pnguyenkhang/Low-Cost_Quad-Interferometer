@@ -15,6 +15,7 @@ Use the package manager pip to install all required libraries
 pip install notebook
 pip install numpy
 pip install matplotlib
+pip install pandas
 pip install serial
 ```
 
