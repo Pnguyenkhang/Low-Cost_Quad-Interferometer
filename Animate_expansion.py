@@ -22,19 +22,11 @@ def animate(i):
     y3 = data['expansion']
     
     plt.cla()
-    '''
-    if len(x) > 10000:
-        plt.plot(x[-10000:],y1[-10000:])
-        #plt.plot(x[-10000:],y2[-10000:])
-        #plt.plot(x[-10000:],y3[-10000:])
-    else:
-        plt.plot(x,y2)
-    '''
-    plt.plot(x,y3)
+    plt.plot(x,y3)   #change y3 to y2 for plotting temperature vs time
     
   
-    #plt.xlabel('PD1')
-    #plt.ylabel('PD2')
+    #plt.xlabel('time (s)')
+    #plt.ylabel('Expansion (m)')
 
 ani = matplotlib.animation.FuncAnimation(plt.gcf(), animate, interval=1000)
 
