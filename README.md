@@ -18,7 +18,16 @@ pip install matplotlib
 pip install pandas
 pip install serial
 ```
-
+1. Open Create_CSV.py file and check that USB port matches port that trinket is plugged into
+on computer. You can check this by using the terminal to check devices plugged into the USB
+ports, or you can use the Mu editor for coding the trinket. In Mu hover over the connection
+symbol in the bottom right of the window and it will tell the USB port the trinket is connected to.
+2. Run Create_CSV.py first, if indexing error occurs on boot then run again until successful
+3. Chose Animate_expansion.py, Animate_raw_signal.py, or Animate_lisafig.py and run to see
+realtime data
+4. When done, quit Create_CSV.py and check to see that data.csv has been generated and
+updated
+5. Run coefficient_of_thermal_expansion.py to generate graph
 # Usage
 We utilized Mu Editor and edit our code in circuit-python.
 
