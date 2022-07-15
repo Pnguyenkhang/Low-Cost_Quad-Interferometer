@@ -25,8 +25,8 @@ def animate(i):
     plt.plot(x,y3)   #change y3 to y2 for plotting temperature vs time
     
   
-    #plt.xlabel('time (s)')
-    #plt.ylabel('Expansion (m)')
+    plt.xlabel('time (s)')
+    plt.ylabel('Expansion (m)')
 
 ani = matplotlib.animation.FuncAnimation(plt.gcf(), animate, interval=1000)
 
