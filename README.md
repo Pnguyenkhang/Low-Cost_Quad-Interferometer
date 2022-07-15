@@ -73,7 +73,7 @@ Source: pin 3V <br />
 Output: pin A4 <br />
 
 # 3D Print Files
-These are the obj files for our mounts for the adafruit m0 trinket and the photodiode ([download](3Dfiles.zip)). <br />
+These are the obj files for our mounts ([download](3Dfiles.zip)). <br />
 When constructing the interferometer it is recommended that the 3D printed kinetic screw mounts are secured to the plate using expoxy rather than hot glue do the the elasticity of the glue. All other components do not need to be adjusted after initial application and should be secured with hot glue incase mirror alignment is off. 
 
 # Contributing
