@@ -28,10 +28,6 @@ updated
 5. Run coefficient_of_thermal_expansion.py to generate graph
 # Usage
 We utilized Mu Editor and edit our code in circuit-python.
-
-# Screenshots
-#Insert code snippets
-
 # List of Components
 Quantity | Item Description | Brand/Supplier | Cost 
 -------- | ---------------- | -------------- | ------
