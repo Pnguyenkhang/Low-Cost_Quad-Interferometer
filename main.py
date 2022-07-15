@@ -14,8 +14,8 @@ analog_out_2 = AnalogOut(board.A0)
 temp_sensor = AnalogIn(board.A4)
 PD1 = AnalogIn(board.A1)
 PD2 = AnalogIn(board.A2)
-PD1_mean = 0.653
-PD2_mean = 0.255
+PD1_mean = 0.653   #enter manually at beginning of trial
+PD2_mean = 0.255   #enter manually at beginning of trial
 # Helper to convert analog input to voltage
 def getVoltage(pin):
     return (pin.value * 3.3) / 65536
