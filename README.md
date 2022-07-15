@@ -53,8 +53,9 @@ Quantity | Item Description | Brand/Supplier | Cost
 Total | | |$468.26
 
 # Trinket M0 microcontroller 
-https://www.adafruit.com/product/3500
-Use https://learn.adafruit.com/adafruit-trinket-m0-circuitpython-arduino/pinouts for the Trinket M0 pin I/O diagram. 
+Purchase the Trinket M0 microcontroller using this [link](https://www.adafruit.com/product/3500).
+Trinket M0 pin I/O diagram [here](https://learn.adafruit.com/adafruit-trinket-m0-circuitpython-arduino/pinouts).
+Download the Mu Editor to interface with the trinket [here](https://codewith.mu/en/download).
 # 3D Print Files
 These were the STL files for our mounts for the adafruit m0 trinket and the photodiode. 
 When constructing the interferometer it is recommended that the 3D printed kinetic screw mounts are secured to the plate using expoxy rather than hot glue do the the elasticity of the glue. All other components do not need to be adjusted after initial application and should be secured with hot glue incase mirror alignment is off. 
