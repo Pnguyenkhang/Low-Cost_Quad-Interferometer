@@ -7,7 +7,7 @@ This research experiment recreates a quadrature Mach-Zenhder optical inferometer
 ![image](https://user-images.githubusercontent.com/37032927/162936383-63b10e86-2fae-4593-b529-db24f3bb2851.png)
 
 # Motivation
-For this project, we wanted to be able to utilize a cheap store-bought laser and 3d printed mounts to simulate an expensive mach-zenhder interferometer which will plot real-time data of expansion. The two photodiodes should be perfectly pi/4 out of phase to obtain perfect quadrature.
+We report on the construction and characterization of a low-cost Mach-Zehnder optical interferometer in which quadrature signal detection is achieved by means of polarization control. The device incorporates a store-bought laser pointer, home-built photodetectors, 3D-printed optical mounts, a circular polarizer extracted from a pair of 3D movie glasses, and a Python-enabled microcontroller for analog-to-digital data acquisition. Components fit inside of a 12"x6" space and can be assembled on a budget of less than \$500. The device has the potential to make quadrature interferometry accessible and affordable for labs, students, and enthusiasts alike.
 
 # Quick Start
 Use the package manager pip to install all required libraries
