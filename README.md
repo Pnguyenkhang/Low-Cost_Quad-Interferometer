@@ -4,7 +4,8 @@ This research experiment recreates a quadrature Mach-Zenhder optical inferometer
 
 
 // insert picture of the working setup
-![image](https://user-images.githubusercontent.com/37032927/162936383-63b10e86-2fae-4593-b529-db24f3bb2851.png)
+![](images\interferometer_schematic.png)
+![](images\final_setup.heic)
 
 # Motivation
 We report on the construction and characterization of a low-cost Mach-Zehnder optical interferometer in which quadrature signal detection is achieved by means of polarization control. The device incorporates a store-bought laser pointer, home-built photodetectors, 3D-printed optical mounts, a circular polarizer extracted from a pair of 3D movie glasses, and a Python-enabled microcontroller for analog-to-digital data acquisition. Components fit inside of a 12"x6" space and can be assembled on a budget of less than \$500. The device has the potential to make quadrature interferometry accessible and affordable for labs, students, and enthusiasts alike.
