@@ -26,8 +26,6 @@ while True:
     led.value = True
     new_raw_phase = math.atan2(getVoltage(PD2)-PD2_mean,getVoltage(PD1)-PD1_mean)
     print(getVoltage(PD1), getVoltage(PD2), getVoltage(temp_sensor),new_raw_phase)
-    #print((getVoltage(PD1), getVoltage(PD2),temp_sensor))
-    #print(new_raw_phase, getVoltage(temp_sensor))
 
     time.sleep(0.0004)
     led.value = False
