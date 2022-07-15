@@ -1,5 +1,5 @@
 # Low Cost Quad Interferometer
-This research experiment recreates a quadrature Mach-Zenhder optical inferometer using Adafruit microcontroller for analog-to-digital data acquisiton. 
+This research experiment recreates a quadrature Mach-Zehnder optical inferometer using Adafruit microcontroller for analog-to-digital data acquisition. 
 
 <img src="images/Fig1.png" width="300" />
 <img src="images/final_setup.png" width="300" />
